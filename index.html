@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <div class="dibil"><div class="strelka"></div></div>
+    <div class="zero">0</div>
+    <div class="one">1</div>
+    <div class="two">2</div>
+    <div class="three">3</div>
+    <div class="for">4</div>
+    <div class="fife">5</div>
+    <div class="six">6</div>
+    <div class="seven">7</div>
+    <div class="echt">8</div>
+    <div class="nine">9</div>
+    <div class="desat">10</div>
+    <div class="ill">11</div>
+
+    <style>
+      .dibil {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        border: 1px solid black;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        /* position: absolute; */
+        position: relative;
+        top: 192px;
+      }
+
+      .strelka {
+        height: 40%;
+        left: 49%;
+        background: #000;
+        margin: auto;
+        animation: strelka 12s linear 1;
+        display: flex;
+        transform-origin: 50% 100%;
+        top: 10%;
+        width: 2%;
+        position: absolute;
+      }
+      .one {
+        border-radius: 50%;
+        border: 2px solid black;
+        height: 15px;
+        width: 19px;
+        margin: auto;
+        animation: one 11s linear 1;
+        animation-delay: 1s;
+        position: absolute;
+        top: 190px;
+        left: 642px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .zero {
+        border-radius: 50%;
+        border: 2px solid black;
+        height: 15px;
+        width: 19px;
+        margin: auto;
+        animation: zero 12s linear 1;
+
+        position: absolute;
+        top: 182px;
+        left: 608px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .two {
+        border-radius: 50%;
+        border: 2px solid black;
+        height: 15px;
+        width: 19px;
+        margin: auto;
+        animation: two 10s linear 1;
+        animation-delay: 2s;
+        position: absolute;
+        top: 210px;
+        left: 663px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .three {
+        border-radius: 50%;
+        border: 2px solid black;
+        height: 15px;
+        width: 19px;
+        margin: auto;
+        animation: three 9s linear 1;
+        animation-delay: 3s;
+        position: absolute;
+        top: 239px;
+        left: 671px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .for {
+        border-radius: 50%;
+        border: 2px solid black;
+        height: 15px;
+        width: 19px;
+        margin: auto;
+        animation: for 8s linear 1;
+        animation-delay: 4s;
+        position: absolute;
+        top: 271px;
+        left: 663px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .fife {
+        border-radius: 50%;
+        border: 2px solid black;
+        height: 15px;
+        width: 19px;
+        margin: auto;
+        animation: fife 7s linear 1;
+        animation-delay: 5s;
+        position: absolute;
+        top: 292px;
+        left: 642px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .six {
+        border-radius: 50%;
+        border: 2px solid black;
+        height: 15px;
+        width: 19px;
+        margin: auto;
+        animation: six 6.1s linear 1;
+        animation-delay: 6s;
+        position: absolute;
+        top: 302px;
+        left: 608px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .seven {
+        border-radius: 50%;
+        border: 2px solid black;
+        height: 15px;
+        width: 19px;
+        margin: auto;
+        animation: seven 5s linear 1;
+        animation-delay: 7s;
+        position: absolute;
+        top: 292px;
+        left: 574px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .echt {
+        border-radius: 50%;
+        border: 2px solid black;
+        height: 15px;
+        width: 19px;
+        margin: auto;
+        animation: echt 4s linear 1;
+        animation-delay: 8s;
+        position: absolute;
+        top: 271px;
+        left: 554px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .nine {
+        border-radius: 50%;
+        border: 2px solid black;
+        height: 15px;
+        width: 19px;
+        margin: auto;
+        animation: nine 3s linear 1;
+        animation-delay: 9s;
+        position: absolute;
+        top: 239px;
+        left: 546px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .desat {
+        border-radius: 50%;
+        border: 2px solid black;
+        height: 15px;
+        width: 19px;
+        margin: auto;
+        animation: desat 2s linear 1;
+        animation-delay: 10s;
+        position: absolute;
+        top: 210px;
+        left: 555px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .ill {
+        border-radius: 50%;
+        border: 2px solid black;
+        height: 15px;
+        width: 19px;
+        margin: auto;
+        animation: ill 1s linear 1;
+        animation-delay: 11s;
+        position: absolute;
+        top: 190px;
+        left: 575px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      @keyframes strelka {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes six {
+        0% {
+          background-color: #5d8aa8;
+          color: black;
+        }
+        99% {
+          background-color: #5d8aa8;
+          color: black;
+        }
+        100% {
+          background-color: white;
+        }
+      }
+      @keyframes zero {
+        0% {
+          background-color: #e32636;
+          color: black;
+        }
+        99% {
+          background-color: #e32636;
+          color: black;
+        }
+        100% {
+          background-color: white;
+        }
+      }
+      @keyframes three {
+        0% {
+          background-color: #ffbf00;
+          color: black;
+        }
+        99% {
+          background-color: #ffbf00;
+          color: black;
+        }
+        100% {
+          background-color: white;
+        }
+      }
+      @keyframes nine {
+        0% {
+          background-color: #9966cc;
+          color: black;
+        }
+        99% {
+          background-color: #9966cc;
+          color: black;
+        }
+        100% {
+          background-color: white;
+        }
+      }
+      @keyframes one {
+        0% {
+          background-color: #faebd7;
+          color: black;
+        }
+        99% {
+          background-color: #faebd7;
+          color: black;
+        }
+        100% {
+          background-color: white;
+        }
+      }
+      @keyframes two {
+        0% {
+          background-color: #8db600;
+          color: black;
+        }
+        99% {
+          background-color: #8db600;
+          color: black;
+        }
+        100% {
+          background-color: white;
+        }
+      }
+      @keyframes for {
+        0% {
+          background-color: #00ffff;
+          color: black;
+        }
+        99% {
+          background-color: #00ffff;
+          color: black;
+        }
+        100% {
+          background-color: white;
+        }
+      }
+      @keyframes fife {
+        0% {
+          background-color: #3b444b;
+          color: black;
+        }
+        99% {
+          background-color: #3b444b;
+          color: black;
+        }
+        100% {
+          background-color: white;
+        }
+      }
+      @keyframes seven {
+        0% {
+          background-color: #66ff00;
+          color: black;
+        }
+        99% {
+          background-color: #66ff00;
+          color: black;
+        }
+        100% {
+          background-color: white;
+        }
+      }
+      @keyframes echt {
+        0% {
+          background-color: #cd00cd;
+          color: black;
+        }
+        99% {
+          background-color: #cd00cd;
+          color: black;
+        }
+        100% {
+          background-color: white;
+        }
+      }
+      @keyframes desat {
+        0% {
+          background-color: #ffd700;
+          color: black;
+        }
+        99% {
+          background-color: #ffd700;
+          color: black;
+        }
+        100% {
+          background-color: white;
+        }
+      }
+      @keyframes ill {
+        0% {
+          background-color: #00008b;
+          color: black;
+        }
+        99% {
+          background-color: #00008b;
+          color: black;
+        }
+        100% {
+          background-color: white;
+        }
+      }
+    </style>
+  </body>
+</html>
